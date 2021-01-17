@@ -8,7 +8,7 @@ L'approche est de type TDD : les tests sont écrit à l'avance et vous devez fai
 Enfin attention car les commentaires, la documentation, les bonnes pratiques d'indentation, le nommage des variables ou méthodes sont évaluées.
 
 Question 1 :
-Vous devez implémentez une méthode pour réussir le test.
+Vous devez implémenter une méthode pour réussir le test.
 
 Question 2 :
 Ne vous laissez pas distraire par la difficulté apparante de certains tests et des fonctions internes utilisées du Java.
