@@ -31,16 +31,11 @@ public class Geometry {
 
     @Override
     public boolean equals(Object o) {
-
         if( this.getClass() != o.getClass()){
             return false;
         }
-        try {
-            return o.getClass().getDeclaredField("type").equals(this.type);
-        } catch (NoSuchFieldException e) {
-            e.printStackTrace();
-            return false;
-        }
+        Geometry g = (Geometry) o;
+        return this.type.equals(g.type);
     }
 
     public static int surface(int lenth, int width) {
